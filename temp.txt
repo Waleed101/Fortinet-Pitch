@@ -1,0 +1,19 @@
+type: traffic, time-on-entry: 25.89129, status-on-entry: 0, on-entry-speed: 8.072726, on-stop-time: 27.14209, stop-distance-from: 16.2593, 
+status-on-stop: 1, on-move-time: 28.04992, status-on-move: 1, time-on-exit: 34.2375, status-on-exit: 2
+
+
+type: traffic, status: 2, distance: 16.3313, full stop
+-- if status is 1, or distance > 16
+type: yield, distance: 16.1231, check-headturn
+-- if distance > 16
+type: stop, time-at: 3s, distance: 16.1231, speed-in: 10, full stop
+-- if time < 3, if distance > 16, if speed-in < 10
+
+bad:
+speeding: type: speed, over: 5km
+not turning on engine: type: engine
+not pulling handbrake: type: handbrake
+
+0 => yellow
+1 => red
+2 => green

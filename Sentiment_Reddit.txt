@@ -1,0 +1,19 @@
+Fortinet:
+Over all Sentiment of Topic by TextBlob : [1989, 7088, 6945]
+Over all Sentiment of Topic by VADER : [2774, 8434, 4814]
+
+Palo Alto Networks:
+Over all Sentiment of Topic by TextBlob : [1431, 6182, 5756]
+Over all Sentiment of Topic by VADER : [2228, 6899, 4242]
+
+Cisco:
+Over all Sentiment of Topic by TextBlob : [2002, 7393, 7557]
+Over all Sentiment of Topic by VADER : [2910, 9011, 5031]
+
+CrowdStrike:
+Over all Sentiment of Topic by TextBlob : [301, 1488, 1311]
+Over all Sentiment of Topic by VADER : [456, 1589, 1055]
+
+CheckPoint:
+
+
